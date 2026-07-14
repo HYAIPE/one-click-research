@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>One Click Research</title>
+    <link rel="stylesheet" href="../styles/tokens.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <p class="brand">HYAIPE</p>
+      <h1 class="title">One Click Research</h1>
+      <p class="tagline">Highlight once.<br />Search everywhere.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="platforms-heading">
+        <h2 id="platforms-heading" class="section-heading">Search platforms</h2>
+        <ul id="platform-list" class="platform-list"></ul>
+        <p id="zero-warning" class="zero-warning" hidden>
+          All platforms are off. Enable at least one to search.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <nav class="footer-links" aria-label="Product links">
+        <button id="open-settings" class="footer-link" type="button">Settings</button>
+        <a id="github-link" class="footer-link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+      <p class="footer-meta">Open source / 2026</p>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

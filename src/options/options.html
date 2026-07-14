@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>One Click Research — Settings</title>
+    <link rel="stylesheet" href="../styles/tokens.css" />
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <p class="brand">HYAIPE</p>
+        <h1 class="title">One Click Research</h1>
+        <p class="subtitle">Settings</p>
+      </header>
+
+      <main>
+        <section class="section" aria-labelledby="platforms-heading">
+          <h2 id="platforms-heading" class="section-heading">Search platforms</h2>
+          <p class="section-note">
+            Toggle platforms on or off and set the search order. The first platform becomes the
+            first tab when you search everywhere.
+          </p>
+          <ul id="platform-list" class="platform-list"></ul>
+          <p id="zero-warning" class="zero-warning" hidden>
+            All platforms are off. Enable at least one to search.
+          </p>
+        </section>
+
+        <section class="section" aria-labelledby="tabs-heading">
+          <h2 id="tabs-heading" class="section-heading">Tab behavior</h2>
+          <ul class="platform-list">
+            <li class="platform-row">
+              <div class="row-text">
+                <span class="row-label">Group search everywhere tabs</span>
+                <span class="row-note">Open results in a named Chrome tab group.</span>
+              </div>
+              <button
+                id="toggle-group-tabs"
+                class="switch"
+                type="button"
+                role="switch"
+                aria-checked="true"
+              >
+                On
+              </button>
+            </li>
+            <li class="platform-row">
+              <div class="row-text">
+                <span class="row-label">Open individual searches in a new tab</span>
+                <span class="row-note">When off, single searches reuse the current tab.</span>
+              </div>
+              <button
+                id="toggle-new-tab"
+                class="switch"
+                type="button"
+                role="switch"
+                aria-checked="true"
+              >
+                On
+              </button>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" aria-labelledby="reset-heading">
+          <h2 id="reset-heading" class="section-heading">Defaults</h2>
+          <button id="reset-defaults" class="reset-button" type="button">Reset defaults</button>
+          <p id="reset-status" class="row-note" role="status"></p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a id="github-link" class="footer-link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+        <p class="footer-meta">Chrome extension / Open source / 2026</p>
+      </footer>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>
