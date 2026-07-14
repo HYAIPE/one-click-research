@@ -8,8 +8,6 @@
 
 **HIGHLIGHT ONCE.<br />SEARCH EVERYWHERE.**
 
-GOOGLE / REDDIT / X / GITHUB / YOUTUBE / WIKIPEDIA
-
 CHROME EXTENSION / OPEN SOURCE / 2026
 
 </div>
@@ -18,7 +16,7 @@ CHROME EXTENSION / OPEN SOURCE / 2026
 
 ## Overview
 
-One Click Research is a minimal, fast, privacy-conscious Chrome extension. Highlight text on any webpage, right-click, and search it across Google, Reddit, X, GitHub, YouTube, and Wikipedia — in one action.
+One Click Research is a minimal, fast, privacy-conscious Chrome extension. Highlight text on any webpage, right-click, and launch organized searches across your preferred research services in one action.
 
 No accounts. No analytics. No servers. Nothing leaves your browser except the searches you explicitly launch.
 
@@ -26,23 +24,20 @@ No accounts. No analytics. No servers. Nothing leaves your browser except the se
 
 1. Highlight text on any webpage.
 2. Right-click and choose **One Click Research**.
-3. Pick **Search everywhere** — or a single platform.
+3. Pick **Search everywhere** — or a single enabled service.
 
-**Search everywhere** opens one tab per enabled platform inside a named Chrome tab group:
+**Search everywhere** opens one tab per enabled service inside a named Chrome tab group:
 
 ```
 RESEARCH: Bitcoin Ordinals
-├── Google
-├── Reddit
-├── X
-├── GitHub
-├── YouTube
-└── Wikipedia
+├── Research service
+├── Research service
+└── Research service
 ```
 
 ## Features
 
-- **One action, six searches.** The context menu is the entire interface.
+- **One action, organized searches.** The context menu is the entire interface.
 - **Organized results.** Search-everywhere tabs open in a named, colored tab group. If grouping is unavailable, plain tabs open instead — search never fails because grouping does.
 - **Your platforms, your order.** Enable, disable, and reorder platforms; the context menu updates to match. Search everywhere only hits enabled platforms.
 - **Safe with anything you select.** Unicode, emoji, URLs, symbols, multi-line selections — everything is normalized and URL-encoded correctly.

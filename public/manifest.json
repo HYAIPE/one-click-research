@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "One Click Research",
-  "version": "1.0.0",
-  "description": "Highlight once. Search everywhere. Search Google, Reddit, X, GitHub, YouTube, and Wikipedia from any highlighted text.",
+  "version": "1.0.1",
+  "description": "Highlight text and launch organized searches across your preferred research services.",
   "permissions": ["contextMenus", "storage", "tabGroups"],
   "background": {
     "service_worker": "background/service-worker.js"

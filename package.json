@@ -1,7 +1,7 @@
 {
   "name": "one-click-research",
-  "version": "1.0.0",
-  "description": "Highlight once. Search everywhere. Search Google, Reddit, X, GitHub, YouTube, and Wikipedia from any highlighted text.",
+  "version": "1.0.1",
+  "description": "Highlight text and launch organized searches across your preferred research services.",
   "private": true,
   "type": "module",
   "scripts": {
